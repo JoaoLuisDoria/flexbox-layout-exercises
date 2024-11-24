@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper {
+	background-color: #ddd;
+	margin: 3rem auto;
+	min-width: 20%;
+	max-width: 80%;
+	border: 0.85rem solid #000;
+	border-radius: 0.3rem;
+}
