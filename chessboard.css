@@ -1,0 +1,33 @@
+* {
+	box-sizing: border-box;
+	font-family: "Funnel Sans", sans-serif;
+	font-weight: 400;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	background-color: #292929;
+}
+
+.board {
+	display: flex;
+	flex-direction: row;
+	margin: 20rem auto 0 auto;
+	background-color: rgb(247, 207, 191);
+}
+
+.square {
+	width: 6.25rem;
+	height: 6.25rem;
+	background-color: red;
+}
+
+.light {
+	background-color: rgb(255, 203, 106);
+}
+
+.dark {
+	background-color: rgb(255, 193, 60);
+}
