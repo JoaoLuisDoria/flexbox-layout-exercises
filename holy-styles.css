@@ -1,14 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
 * {
+	box-sizing: border-box;
+	font-family: "Funnel Sans", sans-serif;
+	font-weight: 400;
+	list-style: none;
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 
 .wrapper {
 	background-color: #ddd;
-	margin: 3rem auto;
-	min-width: 20%;
-	max-width: 80%;
-	border: 0.85rem solid #000;
 	border-radius: 0.3rem;
+	border: 0.85rem solid #000;
+	margin: 3rem auto;
+	max-width: 100rem;
+}
+
+main {
+	background-color: lightcoral;
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+header {
+	background-color: rgb(139, 203, 255);
+	display: flex;
+	font-size: 8rem;
+	justify-content: center;
+}
+
+.left {
+	background-color: lightpink;
+	border-top: 0.8rem solid black;
+	border-bottom: 0.8rem solid black;
+}
+
+.left h2 {
+	font-size: 2.7rem;
+	padding: 0 2rem;
+}
+
+.left ul li {
+	font-size: 2rem;
+	text-transform: uppercase;
+}
+
+.content {
+	align-items: center;
+	border: 0.8rem solid black;
+	display: flex;
+	flex-direction: column;
+}
+
+.content h2 {
+	font-size: 5rem;
+}
+
+.content p {
+	/* padding-bottom: 5rem; */
+	padding: 0 0.8rem 5rem 0.8rem;
+}
+
+.right {
+	background-color: lightpink;
+	border-top: 0.8rem solid black;
+	border-bottom: 0.8rem solid black;
+}
+
+.right p {
+	font-size: 4rem;
+	padding: 1rem 2rem;
+}
+
+footer {
+	background-color: rgb(139, 203, 255);
+	display: flex;
+	font-size: 5rem;
+	justify-content: center;
+	text-transform: uppercase;
 }
